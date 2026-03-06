@@ -28,6 +28,9 @@ TRACKED_FIELDS = {
     "expo_mentions":    "展会信息",
     # 内容信号
     "article_titles":   "文章/博客标题",
+    "core_keywords":    "核心关键词",
+    "long_tail_keywords": "长尾关键词",
+    "body_digest":      "页面正文摘要",
     "video_embeds":     "视频嵌入",
     # 结构信号
     "schema_types":     "Schema类型",

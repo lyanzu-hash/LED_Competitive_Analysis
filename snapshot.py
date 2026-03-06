@@ -53,6 +53,9 @@ def save_snapshot(name: str, pages: list[dict]) -> dict:
             # 内容信号
             "article_titles":   pg.get("article_titles", []),
             "video_embeds":     pg.get("video_embeds", []),
+            "core_keywords":    pg.get("core_keywords", []),
+            "long_tail_keywords": pg.get("long_tail_keywords", []),
+            "body_digest":      pg.get("body_digest", ""),
             # 结构信号
             "schema_types":     pg.get("schema_types", []),
             "lang_options":     pg.get("lang_options", []),
