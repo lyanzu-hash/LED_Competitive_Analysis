@@ -1,0 +1,678 @@
+14:37:43  INFO      ====================================================
+14:37:43  INFO        LED竞品日报  定时任务启动  2026-03-06 14:37
+14:37:43  INFO        日志文件: D:\新建文件夹\sales_bot\logs\scheduled_2026-03-06.log
+14:37:43  INFO      ====================================================
+14:37:43  INFO      [第 1/3 次尝试]
+14:37:43  INFO      ═════════════════════════════════════════════
+14:37:43  INFO        LED竞品日报  2026-03-06 14:37
+14:37:43  INFO        目标网站: 10 个  |  模式: 差异监控
+14:37:43  INFO      ═════════════════════════════════════════════
+14:37:43  INFO      
+[Step 1/4] 开始爬取 10 个竞品网站 ...
+14:37:43  INFO      [开始爬取] EagerLED  https://www.eagerled.com/
+14:37:43  INFO      [开始爬取] Kinglight  https://en.kinglight.com/
+14:37:43  INFO      [开始爬取] ColorlitLED  https://www.colorlitled.com/
+14:37:53  INFO      [sitemap] https://www.colorlitled.com/ 发现 555 个 URL
+14:37:55  INFO        ↳ https://www.colorlitled.com/p5-indoor-fixed-installation-led-display-to-rwanda/
+14:37:56  INFO      [sitemap] https://www.eagerled.com/ 发现 1097 个 URL
+14:37:58  INFO        ↳ https://www.colorlitled.com/front-service-indoor-led-display-fa250-series/
+14:37:58  INFO        ↳ https://www.eagerled.com/the-best-outdoor-led-video-walls-to-change-visual-displays/
+14:38:00  INFO        ↳ https://www.colorlitled.com/p3-33-outdoor-led-module/
+14:38:01  INFO        ↳ https://www.eagerled.com/indoor-vs-outdoor-led-displays/
+14:38:02  INFO      [sitemap] https://en.kinglight.com/ 发现 2147 个 URL
+14:38:03  INFO        ↳ https://en.kinglight.com/blog/interactive-floor-led-screen-features-types-and-advantages.html
+14:38:03  INFO        ↳ https://www.colorlitled.com/p1-25-indoor-led-module/
+14:38:04  INFO        ↳ https://www.eagerled.com/led-display-resolution-guide-how-to-choose/
+14:38:06  INFO        ↳ https://en.kinglight.com/blog/car-led-display.html
+14:38:06  INFO        ↳ https://www.colorlitled.com/p6-67-outdoor-led-module/
+14:38:06  INFO        ↳ https://www.eagerled.com/indoor-led-screen-guide/
+14:38:09  INFO        ↳ https://www.colorlitled.com/p6-outdoor-led-module/
+14:38:09  INFO        ↳ https://www.eagerled.com/led-outdoor-display-guide/
+14:38:10  INFO        ↳ https://en.kinglight.com/blog/portable-led-display.html
+14:38:12  INFO        ↳ https://www.colorlitled.com/p5-outdoor-led-module/
+14:38:12  INFO        ↳ https://www.eagerled.com/led-screen-rental-guide/
+14:38:13  INFO        ↳ https://en.kinglight.com/blog/perimeter-led-dislay.html
+14:38:15  INFO        ↳ https://www.colorlitled.com/p4-outdoor-led-module/
+14:38:15  INFO        ↳ https://www.eagerled.com/high-resolution-led-screens-key-takeaway/
+14:38:16  INFO        ↳ https://en.kinglight.com/blog/macroblock-unveils-davinci-series-led-driver-ics-for-high-end-displays-at-ise-2025.html
+14:38:18  INFO      [完成] ColorlitLED  共爬取 9 个页面
+14:38:18  INFO      [开始爬取] DoitVision  https://www.doitvision.com/
+14:38:18  INFO        ✓ ColorlitLED  (9 页)
+14:38:18  INFO        ↳ https://www.eagerled.com/p5-outdoor-fixed-led-board-shipped-to-nicaragua/
+14:38:19  INFO        ↳ https://en.kinglight.com/blog/london-future-stores-generated-5m-live-impression-for-intel.html
+14:38:21  INFO      [完成] EagerLED  共爬取 9 个页面
+14:38:21  INFO      [开始爬取] LEDScreenFactory  https://ledscreenfactory.com/
+14:38:21  INFO        ✓ EagerLED  (9 页)
+14:38:22  INFO        ↳ https://en.kinglight.com/blog/p5-vs-p10-led-screen.html
+14:38:24  INFO      [sitemap] https://www.doitvision.com/ 发现 83 个 URL
+14:38:25  INFO        ↳ https://en.kinglight.com/blog/activity/kinglight-will-attend-ise-2025.html
+14:38:26  INFO        ↳ https://www.doitvision.com/blog
+14:38:28  INFO      [完成] Kinglight  共爬取 9 个页面
+14:38:28  INFO      [开始爬取] TopDanceLED  https://topdanceled.com/
+14:38:28  INFO        ✓ Kinglight  (9 页)
+14:38:32  INFO        ↳ https://www.doitvision.com/calculate-led-screen-resolution-size-viewing-distance
+14:38:38  INFO        ↳ https://www.doitvision.com/good-pixel-pitch-and-resolution-of-led-display
+14:38:38  INFO      [sitemap] https://topdanceled.com/ 发现 171 个 URL
+14:38:39  INFO      [sitemap] https://ledscreenfactory.com/ 发现 1077 个 URL
+14:38:39  INFO        ↳ https://topdanceled.com/what-are-the-applications-of-spherical-screens/
+14:38:41  INFO        ↳ https://ledscreenfactory.com/blog/
+14:38:42  INFO        ↳ https://www.doitvision.com/how-to-calculate-outdoor-led-billboard-roi
+14:38:43  INFO        ↳ https://topdanceled.com/top-5-rental-led-display-screen-types/
+14:38:45  INFO        ↳ https://topdanceled.com/rental-led-display-vs-fixed-led-display/
+14:38:45  INFO        ↳ https://ledscreenfactory.com/es/blog/
+14:38:48  INFO        ↳ https://topdanceled.com/indoor-and-outdoor-led-display-for-advertising/
+14:38:49  INFO        ↳ https://www.doitvision.com/how-to-make-outdoor-rooftops-led-display-screen
+14:38:50  INFO        ↳ https://topdanceled.com/8-advanced-rental-led-display/
+14:38:50  INFO        ↳ https://ledscreenfactory.com/de/blog/
+14:38:53  INFO        ↳ https://topdanceled.com/resolution-of-large-led-screen/
+14:38:54  INFO        ↳ https://www.doitvision.com/p4-p6-p8-and-p10-outdoor-led-displays
+14:38:55  INFO        ↳ https://topdanceled.com/led-display-resolution/
+14:38:55  INFO        ↳ https://ledscreenfactory.com/fr/blog/
+14:38:58  INFO        ↳ https://topdanceled.com/indoor-vs-outdoor-led-screens/
+14:39:00  INFO        ↳ https://ledscreenfactory.com/it/blog/
+14:39:00  INFO      [完成] TopDanceLED  共爬取 9 个页面
+14:39:00  INFO      [开始爬取] SZLEDWorld  https://szledworld.com/
+14:39:00  INFO        ✓ TopDanceLED  (9 页)
+14:39:01  INFO        ↳ https://www.doitvision.com/product
+14:39:04  INFO        ↳ https://ledscreenfactory.com/outdoor-led-display-can-play-3d-film-source/
+14:39:06  INFO        ↳ https://www.doitvision.com/wedding-led-screen-rental
+14:39:08  INFO        ↳ https://ledscreenfactory.com/differences-between-dip-and-smd-packages-for-outdoor-led-displays/
+14:39:12  INFO      [完成] DoitVision  共爬取 9 个页面
+14:39:12  INFO      [开始爬取] BibLED  https://www.bibiled.com/
+14:39:12  INFO        ✓ DoitVision  (9 页)
+14:39:12  INFO        ↳ https://ledscreenfactory.com/what-is-the-led-display-production-and-installation-process/
+14:39:15  INFO      [sitemap] https://szledworld.com/ 发现 3580 个 URL
+14:39:16  INFO        ↳ https://szledworld.com/qhd-resolution.html
+14:39:17  INFO      [完成] LEDScreenFactory  共爬取 9 个页面
+14:39:17  INFO      [开始爬取] MileStrong  https://www.mile-strong.com/
+14:39:17  INFO        ✓ LEDScreenFactory  (9 页)
+14:39:19  INFO        ↳ https://szledworld.com/ru/qhd-resolution-html/
+14:39:20  INFO      [sitemap] https://www.mile-strong.com/ 发现 501 个 URL
+14:39:22  INFO        ↳ https://www.mile-strong.com/Products/
+14:39:23  INFO        ↳ https://szledworld.com/de/qhd-resolution-html/
+14:39:24  INFO        ↳ https://www.mile-strong.com/Blog/
+14:39:27  INFO        ↳ https://szledworld.com/fr/resolution-qhd-html/
+14:39:27  INFO        ↳ https://www.mile-strong.com/News/
+14:39:30  INFO        ↳ https://www.mile-strong.com/case/
+14:39:31  INFO        ↳ https://szledworld.com/semi-outdoor-and-full-outdoor-led.html
+14:39:32  INFO        ↳ https://www.mile-strong.com/solution/index.html
+14:39:34  INFO        ↳ https://szledworld.com/de/semi-outdoor-und-voll-outdoor-leds-html/
+14:39:35  INFO        ↳ https://www.mile-strong.com/Indoor-LED-Display/
+14:39:36  INFO      [sitemap] https://www.bibiled.com/ 发现 2361 个 URL
+14:39:38  INFO        ↳ https://www.bibiled.com/outdoor-led-display-problems/
+14:39:38  INFO        ↳ https://www.mile-strong.com/Outdoor-LED-Display/
+14:39:38  INFO        ↳ https://szledworld.com/xr-technology-virtual-production-technology.html
+14:39:41  INFO        ↳ https://www.mile-strong.com/Rental-Staging/
+14:39:41  INFO        ↳ https://szledworld.com/de/xr-technology-virtual-production-technology-html/
+14:39:41  INFO        ↳ https://www.bibiled.com/purchase-indoor-led-display/
+14:39:43  INFO      [完成] MileStrong  共爬取 9 个页面
+14:39:43  INFO      [开始爬取] SZJYLED  https://www.szjy-led.com/
+14:39:43  INFO        ✓ MileStrong  (9 页)
+14:39:45  INFO        ↳ https://www.bibiled.com/outdoor-billboard-led-display/
+14:39:46  INFO      [完成] SZLEDWorld  共爬取 9 个页面
+14:39:46  INFO        ✓ SZLEDWorld  (9 页)
+14:39:48  INFO        ↳ https://www.bibiled.com/rental-led-screen/
+14:39:52  INFO        ↳ https://www.bibiled.com/p3-91-indoor-shop-led-screen-to-albania/
+14:39:56  INFO        ↳ https://www.bibiled.com/pole-led-display-p3-outdoor-for-smart-city-to-thailand/
+14:39:59  INFO        ↳ https://www.bibiled.com/18sqm-p4-81-outdoor-rental-led-display-to-albania/
+14:40:03  INFO        ↳ https://www.bibiled.com/p5-outdoor-fixed-installation-led-screen-to-botswana/
+14:40:07  INFO      [完成] BibLED  共爬取 9 个页面
+14:40:07  INFO        ✓ BibLED  (9 页)
+14:40:10  INFO      [sitemap] https://www.szjy-led.com/ 发现 12450 个 URL
+14:40:12  INFO        ↳ https://www.szjy-led.com/what-is-p4-resolution/
+14:40:14  INFO        ↳ https://www.szjy-led.com/fr/quelle-est-la-resolution-p4/
+14:40:18  INFO        ↳ https://www.szjy-led.com/what-is-1080p-resolution/
+14:40:21  INFO        ↳ https://www.szjy-led.com/fr/quest-ce-que-la-resolution-1080p/
+14:40:25  INFO        ↳ https://www.szjy-led.com/pt/outdoors-3d-da-nike/
+14:40:29  INFO        ↳ https://www.szjy-led.com/virtual-production-vs-green-screen/
+14:40:32  INFO        ↳ https://www.szjy-led.com/fr/production-virtuelle-vs-ecran-vert/
+14:40:36  INFO        ↳ https://www.szjy-led.com/outdoor-advertising-companies-in-south-africa/
+14:40:38  INFO      [完成] SZJYLED  共爬取 9 个页面
+14:40:38  INFO        ✓ SZJYLED  (9 页)
+14:40:38  INFO      
+[Step 2/4] 与昨日快照对比，检测更新 ...
+14:40:38  INFO      [快照] ColorlitLED 加载上次快照：ColorlitLED_2026-03-06_141536.json（9 页）
+14:40:38  INFO      [差异] 新增页面=0  下线页面=0  内容变化=1  无变化=8
+14:40:38  INFO        ColorlitLED：1个页面内容变化
+14:40:38  INFO      [快照] EagerLED 加载上次快照：EagerLED_2026-03-06_141536.json（9 页）
+14:40:38  INFO      [差异] 新增页面=0  下线页面=0  内容变化=1  无变化=8
+14:40:38  INFO        EagerLED：1个页面内容变化
+14:40:38  INFO      [快照] Kinglight 加载上次快照：Kinglight_2026-03-06_141536.json（9 页）
+14:40:38  INFO      [差异] 新增页面=0  下线页面=0  内容变化=2  无变化=7
+14:40:38  INFO        Kinglight：2个页面内容变化
+14:40:38  INFO      [快照] TopDanceLED 加载上次快照：TopDanceLED_2026-03-06_141536.json（9 页）
+14:40:38  INFO      [差异] 新增页面=0  下线页面=0  内容变化=1  无变化=8
+14:40:38  INFO        TopDanceLED：1个页面内容变化
+14:40:38  INFO      [快照] DoitVision 加载上次快照：DoitVision_2026-03-06_141536.json（9 页）
+14:40:38  INFO      [差异] 新增页面=0  下线页面=0  内容变化=2  无变化=7
+14:40:38  INFO        DoitVision：2个页面内容变化
+14:40:38  INFO      [快照] LEDScreenFactory 加载上次快照：LEDScreenFactory_2026-03-06_141536.json（9 页）
+14:40:38  INFO      [差异] 新增页面=0  下线页面=0  内容变化=3  无变化=6
+14:40:38  INFO        LEDScreenFactory：3个页面内容变化
+14:40:38  INFO      [快照] MileStrong 加载上次快照：MileStrong_2026-03-06_141536.json（9 页）
+14:40:38  INFO      [差异] 新增页面=0  下线页面=0  内容变化=0  无变化=9
+14:40:38  INFO        MileStrong：今日无更新
+14:40:38  INFO      [快照] SZLEDWorld 加载上次快照：SZLEDWorld_2026-03-06_141536.json（9 页）
+14:40:38  INFO      [差异] 新增页面=0  下线页面=0  内容变化=4  无变化=5
+14:40:38  INFO        SZLEDWorld：4个页面内容变化
+14:40:38  INFO      [快照] BibLED 加载上次快照：BibLED_2026-03-06_141536.json（9 页）
+14:40:38  INFO      [差异] 新增页面=0  下线页面=0  内容变化=0  无变化=9
+14:40:38  INFO        BibLED：今日无更新
+14:40:38  INFO      [快照] SZJYLED 加载上次快照：SZJYLED_2026-03-06_141536.json（9 页）
+14:40:38  INFO      [差异] 新增页面=0  下线页面=0  内容变化=3  无变化=6
+14:40:38  INFO        SZJYLED：3个页面内容变化
+14:40:38  INFO        → 今日有变化竞品: 8 / 10
+14:40:38  INFO      
+[Step 3/4] 保存今日快照 ...
+14:40:38  INFO        ✓ ColorlitLED 快照已保存
+14:40:38  INFO        ✓ EagerLED 快照已保存
+14:40:38  INFO        ✓ Kinglight 快照已保存
+14:40:38  INFO        ✓ TopDanceLED 快照已保存
+14:40:38  INFO        ✓ DoitVision 快照已保存
+14:40:39  INFO        ✓ LEDScreenFactory 快照已保存
+14:40:39  INFO        ✓ MileStrong 快照已保存
+14:40:39  INFO        ✓ SZLEDWorld 快照已保存
+14:40:39  INFO        ✓ BibLED 快照已保存
+14:40:39  INFO        ✓ SZJYLED 快照已保存
+14:40:39  INFO      
+[Step 4/4] 调用大模型分析 ...
+14:40:39  INFO      [LLM分析] ColorlitLED 发送请求（变化分析，流式）...
+14:40:41  INFO      HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+14:41:56  INFO      [LLM分析] ColorlitLED 完成，共 3697 字
+14:41:56  INFO        ✅ ColorlitLED（已分析）
+14:41:56  INFO      [LLM分析] EagerLED 发送请求（变化分析，流式）...
+14:41:57  INFO      HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+14:42:59  INFO      [LLM分析] EagerLED 完成，共 2810 字
+14:42:59  INFO        ✅ EagerLED（已分析）
+14:42:59  INFO      [LLM分析] Kinglight 发送请求（变化分析，流式）...
+14:43:01  INFO      HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+14:44:09  INFO      [LLM分析] Kinglight 完成，共 3425 字
+14:44:09  INFO        ✅ Kinglight（已分析）
+14:44:09  INFO      [LLM分析] TopDanceLED 发送请求（变化分析，流式）...
+14:44:10  INFO      HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+14:45:20  INFO      [LLM分析] TopDanceLED 完成，共 3607 字
+14:45:20  INFO        ✅ TopDanceLED（已分析）
+14:45:20  INFO      [LLM分析] DoitVision 发送请求（变化分析，流式）...
+14:45:21  INFO      HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+14:46:24  INFO      [LLM分析] DoitVision 完成，共 3324 字
+14:46:24  INFO        ✅ DoitVision（已分析）
+14:46:24  INFO      [LLM分析] LEDScreenFactory 发送请求（变化分析，流式）...
+14:46:26  INFO      HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+14:47:42  INFO      [LLM分析] LEDScreenFactory 完成，共 3805 字
+14:47:42  INFO        ✅ LEDScreenFactory（已分析）
+14:47:42  INFO      [跳过] MileStrong 今日无变化，节省 token
+14:47:42  INFO        ⏭  MileStrong（无变化，跳过）
+14:47:42  INFO      [LLM分析] SZLEDWorld 发送请求（变化分析，流式）...
+14:47:43  INFO      HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+14:48:49  INFO      [LLM分析] SZLEDWorld 完成，共 3247 字
+14:48:49  INFO        ✅ SZLEDWorld（已分析）
+14:48:49  INFO      [跳过] BibLED 今日无变化，节省 token
+14:48:49  INFO        ⏭  BibLED（无变化，跳过）
+14:48:49  INFO      [LLM分析] SZJYLED 发送请求（变化分析，流式）...
+14:48:50  INFO      HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+14:50:04  INFO      [LLM分析] SZJYLED 完成，共 3899 字
+14:50:04  INFO        ✅ SZJYLED（已分析）
+14:50:04  INFO      
+[生成日报] 调用大模型生成综合日报 ...
+14:50:04  INFO      [LLM日报] 生成综合日报（流式）...
+14:50:05  INFO      HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+14:51:01  INFO      [LLM日报] 生成完成，共 3027 字
+14:51:01  INFO      [报告已保存] output\LED竞品日报_2026-03-06_1451.xlsx
+14:51:01  INFO      
+═════════════════════════════════════════════
+14:51:01  INFO        ✅ 日报已生成：D:\新建文件夹\sales_bot\output\LED竞品日报_2026-03-06_1451.xlsx
+14:51:01  INFO      ═════════════════════════════════════════════
+
+14:51:01  INFO      ✅ 任务成功完成：output\LED竞品日报_2026-03-06_1451.xlsx
+15:04:25  INFO      ====================================================
+15:04:25  INFO        LED竞品日报  定时任务启动  2026-03-06 15:04
+15:04:25  INFO        日志文件: D:\新建文件夹\sales_bot\logs\scheduled_2026-03-06.log
+15:04:25  INFO      ====================================================
+15:04:25  INFO      [第 1/3 次尝试]
+15:04:25  INFO      ═════════════════════════════════════════════
+15:04:25  INFO        LED竞品日报  2026-03-06 15:04
+15:04:25  INFO        目标网站: 10 个  |  模式: 差异监控
+15:04:25  INFO      ═════════════════════════════════════════════
+15:04:25  INFO      
+[Step 1/4] 开始爬取 10 个竞品网站 ...
+15:04:25  INFO      [开始爬取] EagerLED  https://www.eagerled.com/
+15:04:25  INFO      [开始爬取] Kinglight  https://en.kinglight.com/
+15:04:25  INFO      [开始爬取] ColorlitLED  https://www.colorlitled.com/
+15:04:35  INFO      [sitemap] https://www.colorlitled.com/ 发现 555 个 URL
+15:04:37  INFO        ↳ https://www.colorlitled.com/p5-indoor-fixed-installation-led-display-to-rwanda/
+15:04:39  INFO      [sitemap] https://www.eagerled.com/ 发现 1097 个 URL
+15:04:40  INFO        ↳ https://www.colorlitled.com/front-service-indoor-led-display-fa250-series/
+15:04:41  INFO        ↳ https://www.eagerled.com/the-best-outdoor-led-video-walls-to-change-visual-displays/
+15:04:43  INFO        ↳ https://www.colorlitled.com/p3-33-outdoor-led-module/
+15:04:43  INFO      [sitemap] https://en.kinglight.com/ 发现 2147 个 URL
+15:04:43  INFO        ↳ https://www.eagerled.com/indoor-vs-outdoor-led-displays/
+15:04:45  INFO        ↳ https://en.kinglight.com/blog/interactive-floor-led-screen-features-types-and-advantages.html
+15:04:46  INFO        ↳ https://www.colorlitled.com/p1-25-indoor-led-module/
+15:04:47  INFO        ↳ https://www.eagerled.com/led-display-resolution-guide-how-to-choose/
+15:04:48  INFO        ↳ https://en.kinglight.com/blog/car-led-display.html
+15:04:48  INFO        ↳ https://www.colorlitled.com/p6-67-outdoor-led-module/
+15:04:50  INFO        ↳ https://www.eagerled.com/indoor-led-screen-guide/
+15:04:51  INFO        ↳ https://en.kinglight.com/blog/portable-led-display.html
+15:04:51  INFO        ↳ https://www.colorlitled.com/p6-outdoor-led-module/
+15:04:52  INFO        ↳ https://www.eagerled.com/led-outdoor-display-guide/
+15:04:54  INFO        ↳ https://en.kinglight.com/blog/perimeter-led-dislay.html
+15:04:54  INFO        ↳ https://www.colorlitled.com/p5-outdoor-led-module/
+15:04:55  INFO        ↳ https://www.eagerled.com/led-screen-rental-guide/
+15:04:57  INFO        ↳ https://www.colorlitled.com/p4-outdoor-led-module/
+15:04:57  INFO        ↳ https://en.kinglight.com/blog/macroblock-unveils-davinci-series-led-driver-ics-for-high-end-displays-at-ise-2025.html
+15:04:58  INFO        ↳ https://www.eagerled.com/high-resolution-led-screens-key-takeaway/
+15:05:00  INFO      [完成] ColorlitLED  共爬取 9 个页面
+15:05:00  INFO      [开始爬取] DoitVision  https://www.doitvision.com/
+15:05:00  INFO        ✓ ColorlitLED  (9 页)
+15:05:00  INFO        ↳ https://en.kinglight.com/blog/london-future-stores-generated-5m-live-impression-for-intel.html
+15:05:01  INFO        ↳ https://www.eagerled.com/p5-outdoor-fixed-led-board-shipped-to-nicaragua/
+15:05:03  INFO        ↳ https://en.kinglight.com/blog/p5-vs-p10-led-screen.html
+15:05:04  INFO      [完成] EagerLED  共爬取 9 个页面
+15:05:04  INFO      [开始爬取] LEDScreenFactory  https://ledscreenfactory.com/
+15:05:04  INFO        ✓ EagerLED  (9 页)
+15:05:05  INFO      [sitemap] https://www.doitvision.com/ 发现 83 个 URL
+15:05:06  INFO        ↳ https://en.kinglight.com/blog/activity/kinglight-will-attend-ise-2025.html
+15:05:07  INFO        ↳ https://www.doitvision.com/blog
+15:05:09  INFO      [完成] Kinglight  共爬取 9 个页面
+15:05:09  INFO      [开始爬取] TopDanceLED  https://topdanceled.com/
+15:05:09  INFO        ✓ Kinglight  (9 页)
+15:05:11  INFO        ↳ https://www.doitvision.com/calculate-led-screen-resolution-size-viewing-distance
+15:05:15  INFO        ↳ https://www.doitvision.com/good-pixel-pitch-and-resolution-of-led-display
+15:05:19  INFO      [sitemap] https://topdanceled.com/ 发现 171 个 URL
+15:05:20  INFO        ↳ https://www.doitvision.com/how-to-calculate-outdoor-led-billboard-roi
+15:05:21  INFO        ↳ https://topdanceled.com/what-are-the-applications-of-spherical-screens/
+15:05:23  INFO      [sitemap] https://ledscreenfactory.com/ 发现 1077 个 URL
+15:05:24  INFO        ↳ https://topdanceled.com/top-5-rental-led-display-screen-types/
+15:05:24  INFO        ↳ https://ledscreenfactory.com/blog/
+15:05:26  INFO        ↳ https://www.doitvision.com/how-to-make-outdoor-rooftops-led-display-screen
+15:05:27  INFO        ↳ https://topdanceled.com/rental-led-display-vs-fixed-led-display/
+15:05:29  INFO        ↳ https://ledscreenfactory.com/es/blog/
+15:05:29  INFO        ↳ https://topdanceled.com/indoor-and-outdoor-led-display-for-advertising/
+15:05:32  INFO        ↳ https://topdanceled.com/8-advanced-rental-led-display/
+15:05:33  INFO        ↳ https://www.doitvision.com/p4-p6-p8-and-p10-outdoor-led-displays
+15:05:34  INFO        ↳ https://ledscreenfactory.com/de/blog/
+15:05:34  INFO        ↳ https://topdanceled.com/resolution-of-large-led-screen/
+15:05:37  INFO        ↳ https://topdanceled.com/led-display-resolution/
+15:05:38  INFO        ↳ https://www.doitvision.com/product
+15:05:39  INFO        ↳ https://topdanceled.com/indoor-vs-outdoor-led-screens/
+15:05:39  INFO        ↳ https://ledscreenfactory.com/fr/blog/
+15:05:42  INFO      [完成] TopDanceLED  共爬取 9 个页面
+15:05:42  INFO      [开始爬取] SZLEDWorld  https://szledworld.com/
+15:05:42  INFO        ✓ TopDanceLED  (9 页)
+15:05:44  INFO        ↳ https://ledscreenfactory.com/it/blog/
+15:05:45  INFO        ↳ https://www.doitvision.com/wedding-led-screen-rental
+15:05:48  INFO        ↳ https://ledscreenfactory.com/outdoor-led-display-can-play-3d-film-source/
+15:05:49  INFO      [完成] DoitVision  共爬取 9 个页面
+15:05:49  INFO      [开始爬取] BibLED  https://www.bibiled.com/
+15:05:49  INFO        ✓ DoitVision  (9 页)
+15:05:53  INFO        ↳ https://ledscreenfactory.com/differences-between-dip-and-smd-packages-for-outdoor-led-displays/
+15:05:56  INFO      [sitemap] https://szledworld.com/ 发现 3580 个 URL
+15:05:58  INFO        ↳ https://szledworld.com/qhd-resolution.html
+15:05:58  INFO        ↳ https://ledscreenfactory.com/what-is-the-led-display-production-and-installation-process/
+15:06:01  INFO        ↳ https://szledworld.com/ru/qhd-resolution-html/
+15:06:02  INFO      [完成] LEDScreenFactory  共爬取 9 个页面
+15:06:02  INFO      [开始爬取] MileStrong  https://www.mile-strong.com/
+15:06:02  INFO        ✓ LEDScreenFactory  (9 页)
+15:06:04  INFO        ↳ https://szledworld.com/de/qhd-resolution-html/
+15:06:05  INFO      [sitemap] https://www.mile-strong.com/ 发现 501 个 URL
+15:06:06  INFO        ↳ https://www.mile-strong.com/Products/
+15:06:06  INFO        ↳ https://szledworld.com/fr/resolution-qhd-html/
+15:06:08  INFO        ↳ https://www.mile-strong.com/Blog/
+15:06:09  INFO      [sitemap] https://www.bibiled.com/ 发现 2361 个 URL
+15:06:09  INFO        ↳ https://szledworld.com/semi-outdoor-and-full-outdoor-led.html
+15:06:10  INFO        ↳ https://www.bibiled.com/outdoor-led-display-problems/
+15:06:10  INFO        ↳ https://www.mile-strong.com/News/
+15:06:12  INFO        ↳ https://szledworld.com/de/semi-outdoor-und-voll-outdoor-leds-html/
+15:06:13  INFO        ↳ https://www.mile-strong.com/case/
+15:06:13  INFO        ↳ https://www.bibiled.com/purchase-indoor-led-display/
+15:06:15  INFO        ↳ https://www.mile-strong.com/solution/index.html
+15:06:15  INFO        ↳ https://szledworld.com/xr-technology-virtual-production-technology.html
+15:06:16  INFO        ↳ https://www.bibiled.com/outdoor-billboard-led-display/
+15:06:17  INFO        ↳ https://www.mile-strong.com/Indoor-LED-Display/
+15:06:18  INFO        ↳ https://szledworld.com/de/xr-technology-virtual-production-technology-html/
+15:06:19  INFO        ↳ https://www.mile-strong.com/Outdoor-LED-Display/
+15:06:19  INFO        ↳ https://www.bibiled.com/rental-led-screen/
+15:06:20  INFO      [完成] SZLEDWorld  共爬取 9 个页面
+15:06:20  INFO      [开始爬取] SZJYLED  https://www.szjy-led.com/
+15:06:20  INFO        ✓ SZLEDWorld  (9 页)
+15:06:21  INFO        ↳ https://www.mile-strong.com/Rental-Staging/
+15:06:23  INFO        ↳ https://www.bibiled.com/p3-91-indoor-shop-led-screen-to-albania/
+15:06:23  INFO      [完成] MileStrong  共爬取 9 个页面
+15:06:23  INFO        ✓ MileStrong  (9 页)
+15:06:26  INFO        ↳ https://www.bibiled.com/pole-led-display-p3-outdoor-for-smart-city-to-thailand/
+15:06:29  INFO        ↳ https://www.bibiled.com/18sqm-p4-81-outdoor-rental-led-display-to-albania/
+15:06:32  INFO        ↳ https://www.bibiled.com/p5-outdoor-fixed-installation-led-screen-to-botswana/
+15:06:35  INFO      [sitemap] https://www.szjy-led.com/ 发现 12450 个 URL
+15:06:35  INFO      [完成] BibLED  共爬取 9 个页面
+15:06:35  INFO        ✓ BibLED  (9 页)
+15:06:36  INFO        ↳ https://www.szjy-led.com/what-is-p4-resolution/
+15:06:38  INFO        ↳ https://www.szjy-led.com/fr/quelle-est-la-resolution-p4/
+15:06:42  INFO        ↳ https://www.szjy-led.com/what-is-1080p-resolution/
+15:06:44  INFO        ↳ https://www.szjy-led.com/fr/quest-ce-que-la-resolution-1080p/
+15:06:48  INFO        ↳ https://www.szjy-led.com/pt/outdoors-3d-da-nike/
+15:06:51  INFO        ↳ https://www.szjy-led.com/virtual-production-vs-green-screen/
+15:06:53  INFO        ↳ https://www.szjy-led.com/fr/production-virtuelle-vs-ecran-vert/
+15:06:57  INFO        ↳ https://www.szjy-led.com/outdoor-advertising-companies-in-south-africa/
+15:06:59  INFO      [完成] SZJYLED  共爬取 9 个页面
+15:06:59  INFO        ✓ SZJYLED  (9 页)
+15:06:59  INFO      
+[Step 2/4] 与昨日快照对比，检测更新 ...
+15:06:59  INFO      [快照] ColorlitLED 加载上次快照：ColorlitLED_2026-03-06_145413.json（9 页）
+15:06:59  INFO      [差异] 新增页面=0  下线页面=0  内容变化=1  无变化=8
+15:06:59  INFO        ColorlitLED：1个页面内容变化
+15:06:59  INFO      [快照] EagerLED 加载上次快照：EagerLED_2026-03-06_145413.json（9 页）
+15:06:59  INFO      [差异] 新增页面=0  下线页面=0  内容变化=2  无变化=7
+15:06:59  INFO        EagerLED：2个页面内容变化
+15:06:59  INFO      [快照] Kinglight 加载上次快照：Kinglight_2026-03-06_145413.json（9 页）
+15:06:59  INFO      [差异] 新增页面=0  下线页面=0  内容变化=2  无变化=7
+15:06:59  INFO        Kinglight：2个页面内容变化
+15:06:59  INFO      [快照] TopDanceLED 加载上次快照：TopDanceLED_2026-03-06_145413.json（9 页）
+15:06:59  INFO      [差异] 新增页面=0  下线页面=0  内容变化=2  无变化=7
+15:06:59  INFO        TopDanceLED：2个页面内容变化
+15:06:59  INFO      [快照] DoitVision 加载上次快照：DoitVision_2026-03-06_145413.json（9 页）
+15:06:59  INFO      [差异] 新增页面=0  下线页面=0  内容变化=1  无变化=8
+15:06:59  INFO        DoitVision：1个页面内容变化
+15:06:59  INFO      [快照] LEDScreenFactory 加载上次快照：LEDScreenFactory_2026-03-06_145413.json（9 页）
+15:06:59  INFO      [差异] 新增页面=0  下线页面=0  内容变化=3  无变化=6
+15:06:59  INFO        LEDScreenFactory：3个页面内容变化
+15:06:59  INFO      [快照] SZLEDWorld 加载上次快照：SZLEDWorld_2026-03-06_145413.json（9 页）
+15:06:59  INFO      [差异] 新增页面=0  下线页面=0  内容变化=4  无变化=5
+15:06:59  INFO        SZLEDWorld：4个页面内容变化
+15:06:59  INFO      [快照] MileStrong 加载上次快照：MileStrong_2026-03-06_145413.json（9 页）
+15:06:59  INFO      [差异] 新增页面=0  下线页面=0  内容变化=0  无变化=9
+15:06:59  INFO        MileStrong：今日无更新
+15:06:59  INFO      [快照] BibLED 加载上次快照：BibLED_2026-03-06_145413.json（9 页）
+15:06:59  INFO      [差异] 新增页面=0  下线页面=0  内容变化=0  无变化=9
+15:06:59  INFO        BibLED：今日无更新
+15:06:59  INFO      [快照] SZJYLED 加载上次快照：SZJYLED_2026-03-06_145413.json（9 页）
+15:06:59  INFO      [差异] 新增页面=0  下线页面=0  内容变化=4  无变化=5
+15:06:59  INFO        SZJYLED：4个页面内容变化
+15:06:59  INFO        → 今日有变化竞品: 8 / 10
+15:06:59  INFO      
+[Step 3/4] 保存今日快照 ...
+15:06:59  INFO        ✓ ColorlitLED 快照已保存
+15:06:59  INFO        ✓ EagerLED 快照已保存
+15:06:59  INFO        ✓ Kinglight 快照已保存
+15:06:59  INFO        ✓ TopDanceLED 快照已保存
+15:06:59  INFO        ✓ DoitVision 快照已保存
+15:06:59  INFO        ✓ LEDScreenFactory 快照已保存
+15:06:59  INFO        ✓ SZLEDWorld 快照已保存
+15:06:59  INFO        ✓ MileStrong 快照已保存
+15:06:59  INFO        ✓ BibLED 快照已保存
+15:06:59  INFO        ✓ SZJYLED 快照已保存
+15:06:59  INFO      
+[Step 4/4] 调用大模型分析 ...
+15:06:59  INFO      [LLM分析] ColorlitLED 发送请求（变化分析，流式）...
+15:07:00  INFO      HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+15:08:12  INFO      [LLM分析] ColorlitLED 完成，共 3376 字
+15:08:12  INFO        ✅ ColorlitLED（已分析）
+15:08:12  INFO      [LLM分析] EagerLED 发送请求（变化分析，流式）...
+15:08:15  INFO      HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+15:09:29  INFO      [LLM分析] EagerLED 完成，共 3336 字
+15:09:29  INFO        ✅ EagerLED（已分析）
+15:09:29  INFO      [LLM分析] Kinglight 发送请求（变化分析，流式）...
+15:09:31  INFO      HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+15:10:54  INFO      [LLM分析] Kinglight 完成，共 3726 字
+15:10:54  INFO        ✅ Kinglight（已分析）
+15:10:54  INFO      [LLM分析] TopDanceLED 发送请求（变化分析，流式）...
+15:10:56  INFO      HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+15:12:09  INFO      [LLM分析] TopDanceLED 完成，共 3232 字
+15:12:09  INFO        ✅ TopDanceLED（已分析）
+15:12:09  INFO      [LLM分析] DoitVision 发送请求（变化分析，流式）...
+15:12:11  INFO      HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+15:13:25  INFO      [LLM分析] DoitVision 完成，共 3200 字
+15:13:25  INFO        ✅ DoitVision（已分析）
+15:13:25  INFO      [LLM分析] LEDScreenFactory 发送请求（变化分析，流式）...
+15:13:30  INFO      HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+15:14:59  INFO      [LLM分析] LEDScreenFactory 完成，共 4514 字
+15:14:59  INFO        ✅ LEDScreenFactory（已分析）
+15:14:59  INFO      [LLM分析] SZLEDWorld 发送请求（变化分析，流式）...
+15:15:01  INFO      HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+15:16:21  INFO      [LLM分析] SZLEDWorld 完成，共 3381 字
+15:16:21  INFO        ✅ SZLEDWorld（已分析）
+15:16:21  INFO      [跳过] MileStrong 今日无变化，节省 token
+15:16:21  INFO        ⏭  MileStrong（无变化，跳过）
+15:16:21  INFO      [跳过] BibLED 今日无变化，节省 token
+15:16:21  INFO        ⏭  BibLED（无变化，跳过）
+15:16:21  INFO      [LLM分析] SZJYLED 发送请求（变化分析，流式）...
+15:16:23  INFO      HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+15:17:59  INFO      [LLM分析] SZJYLED 完成，共 4030 字
+15:17:59  INFO        ✅ SZJYLED（已分析）
+15:17:59  INFO      
+[生成日报] 调用大模型生成综合日报 ...
+15:17:59  INFO      [LLM日报] 生成综合日报（流式）...
+15:18:00  INFO      HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+15:19:17  INFO      [LLM日报] 生成完成，共 4057 字
+15:19:18  INFO      [报告已保存] output\LED竞品日报_2026-03-06_1519.xlsx
+15:19:18  INFO      
+═════════════════════════════════════════════
+15:19:18  INFO        ✅ 日报已生成：D:\新建文件夹\sales_bot\output\LED竞品日报_2026-03-06_1519.xlsx
+15:19:18  INFO      ═════════════════════════════════════════════
+
+15:19:18  INFO      ✅ 任务成功完成：output\LED竞品日报_2026-03-06_1519.xlsx
+15:51:30  INFO      ====================================================
+15:51:30  INFO        LED竞品日报  定时任务启动  2026-03-06 15:51
+15:51:30  INFO        日志文件: D:\新建文件夹\sales_bot\logs\scheduled_2026-03-06.log
+15:51:30  INFO      ====================================================
+15:51:30  INFO      [第 1/3 次尝试]
+15:51:30  INFO      ═════════════════════════════════════════════
+15:51:30  INFO        LED竞品日报  2026-03-06 15:51
+15:51:30  INFO        目标网站: 10 个  |  模式: 差异监控
+15:51:30  INFO      ═════════════════════════════════════════════
+15:51:30  INFO      
+[Step 1/4] 开始爬取 10 个竞品网站 ...
+15:51:30  INFO      [开始爬取] EagerLED  https://www.eagerled.com/
+15:51:30  INFO      [开始爬取] Kinglight  https://en.kinglight.com/
+15:51:30  INFO      [开始爬取] ColorlitLED  https://www.colorlitled.com/
+15:51:40  INFO      [sitemap] https://www.colorlitled.com/ 发现 555 个 URL
+15:51:42  INFO        ↳ https://www.colorlitled.com/p5-indoor-fixed-installation-led-display-to-rwanda/
+15:51:44  INFO      [sitemap] https://www.eagerled.com/ 发现 1097 个 URL
+15:51:44  INFO        ↳ https://www.colorlitled.com/front-service-indoor-led-display-fa250-series/
+15:51:46  INFO        ↳ https://www.eagerled.com/the-best-outdoor-led-video-walls-to-change-visual-displays/
+15:51:47  INFO        ↳ https://www.colorlitled.com/p3-33-outdoor-led-module/
+15:51:48  INFO        ↳ https://www.eagerled.com/indoor-vs-outdoor-led-displays/
+15:51:49  INFO      [sitemap] https://en.kinglight.com/ 发现 2147 个 URL
+15:51:50  INFO        ↳ https://www.colorlitled.com/p1-25-indoor-led-module/
+15:51:50  INFO        ↳ https://en.kinglight.com/blog/interactive-floor-led-screen-features-types-and-advantages.html
+15:51:52  INFO        ↳ https://www.eagerled.com/led-display-resolution-guide-how-to-choose/
+15:51:53  INFO        ↳ https://www.colorlitled.com/p6-67-outdoor-led-module/
+15:51:53  INFO        ↳ https://en.kinglight.com/blog/car-led-display.html
+15:51:54  INFO        ↳ https://www.eagerled.com/indoor-led-screen-guide/
+15:51:56  INFO        ↳ https://www.colorlitled.com/p6-outdoor-led-module/
+15:51:56  INFO        ↳ https://en.kinglight.com/blog/portable-led-display.html
+15:51:57  INFO        ↳ https://www.eagerled.com/led-outdoor-display-guide/
+15:51:58  INFO        ↳ https://www.colorlitled.com/p5-outdoor-led-module/
+15:51:59  INFO        ↳ https://en.kinglight.com/blog/perimeter-led-dislay.html
+15:52:00  INFO        ↳ https://www.eagerled.com/led-screen-rental-guide/
+15:52:01  INFO        ↳ https://www.colorlitled.com/p4-outdoor-led-module/
+15:52:02  INFO        ↳ https://en.kinglight.com/blog/macroblock-unveils-davinci-series-led-driver-ics-for-high-end-displays-at-ise-2025.html
+15:52:03  INFO        ↳ https://www.eagerled.com/high-resolution-led-screens-key-takeaway/
+15:52:04  INFO      [完成] ColorlitLED  共爬取 9 个页面
+15:52:04  INFO      [开始爬取] DoitVision  https://www.doitvision.com/
+15:52:04  INFO        ✓ ColorlitLED  (9 页)
+15:52:05  INFO        ↳ https://en.kinglight.com/blog/london-future-stores-generated-5m-live-impression-for-intel.html
+15:52:06  INFO        ↳ https://www.eagerled.com/p5-outdoor-fixed-led-board-shipped-to-nicaragua/
+15:52:08  INFO        ↳ https://en.kinglight.com/blog/p5-vs-p10-led-screen.html
+15:52:09  INFO      [完成] EagerLED  共爬取 9 个页面
+15:52:09  INFO      [开始爬取] LEDScreenFactory  https://ledscreenfactory.com/
+15:52:09  INFO        ✓ EagerLED  (9 页)
+15:52:09  INFO      [sitemap] https://www.doitvision.com/ 发现 94 个 URL
+15:52:11  INFO        ↳ https://www.doitvision.com/blog
+15:52:11  INFO        ↳ https://en.kinglight.com/blog/activity/kinglight-will-attend-ise-2025.html
+15:52:14  INFO      [完成] Kinglight  共爬取 9 个页面
+15:52:14  INFO      [开始爬取] TopDanceLED  https://topdanceled.com/
+15:52:14  INFO        ✓ Kinglight  (9 页)
+15:52:15  INFO        ↳ https://www.doitvision.com/calculate-led-screen-resolution-size-viewing-distance
+15:52:21  INFO        ↳ https://www.doitvision.com/good-pixel-pitch-and-resolution-of-led-display
+15:52:24  INFO      [sitemap] https://topdanceled.com/ 发现 171 个 URL
+15:52:26  INFO        ↳ https://www.doitvision.com/how-to-calculate-outdoor-led-billboard-roi
+15:52:26  INFO        ↳ https://topdanceled.com/what-are-the-applications-of-spherical-screens/
+15:52:26  INFO      [sitemap] https://ledscreenfactory.com/ 发现 1077 个 URL
+15:52:28  INFO        ↳ https://ledscreenfactory.com/blog/
+15:52:28  INFO        ↳ https://topdanceled.com/top-5-rental-led-display-screen-types/
+15:52:31  INFO        ↳ https://topdanceled.com/rental-led-display-vs-fixed-led-display/
+15:52:31  INFO        ↳ https://www.doitvision.com/how-to-make-outdoor-rooftops-led-display-screen
+15:52:32  INFO        ↳ https://ledscreenfactory.com/es/blog/
+15:52:33  INFO        ↳ https://topdanceled.com/indoor-and-outdoor-led-display-for-advertising/
+15:52:35  INFO        ↳ https://topdanceled.com/8-advanced-rental-led-display/
+15:52:37  INFO        ↳ https://www.doitvision.com/p4-p6-p8-and-p10-outdoor-led-displays
+15:52:37  INFO        ↳ https://ledscreenfactory.com/de/blog/
+15:52:37  INFO        ↳ https://topdanceled.com/resolution-of-large-led-screen/
+15:52:40  INFO        ↳ https://topdanceled.com/led-display-resolution/
+15:52:41  INFO        ↳ https://ledscreenfactory.com/fr/blog/
+15:52:42  INFO        ↳ https://topdanceled.com/indoor-vs-outdoor-led-screens/
+15:52:44  INFO        ↳ https://www.doitvision.com/product
+15:52:44  INFO      [完成] TopDanceLED  共爬取 9 个页面
+15:52:44  INFO      [开始爬取] SZLEDWorld  https://szledworld.com/
+15:52:44  INFO        ✓ TopDanceLED  (9 页)
+15:52:46  INFO        ↳ https://ledscreenfactory.com/it/blog/
+15:52:49  INFO        ↳ https://www.doitvision.com/wedding-led-screen-rental
+15:52:51  INFO        ↳ https://ledscreenfactory.com/outdoor-led-display-can-play-3d-film-source/
+15:52:53  INFO      [完成] DoitVision  共爬取 9 个页面
+15:52:53  INFO      [开始爬取] BibLED  https://www.bibiled.com/
+15:52:53  INFO        ✓ DoitVision  (9 页)
+15:52:55  INFO        ↳ https://ledscreenfactory.com/differences-between-dip-and-smd-packages-for-outdoor-led-displays/
+15:52:59  INFO      [sitemap] https://szledworld.com/ 发现 3580 个 URL
+15:52:59  INFO        ↳ https://ledscreenfactory.com/what-is-the-led-display-production-and-installation-process/
+15:53:00  INFO        ↳ https://szledworld.com/qhd-resolution.html
+15:53:03  INFO        ↳ https://szledworld.com/ru/qhd-resolution-html/
+15:53:03  INFO      [完成] LEDScreenFactory  共爬取 9 个页面
+15:53:03  INFO      [开始爬取] MileStrong  https://www.mile-strong.com/
+15:53:03  INFO        ✓ LEDScreenFactory  (9 页)
+15:53:06  INFO      [sitemap] https://www.mile-strong.com/ 发现 501 个 URL
+15:53:06  INFO        ↳ https://szledworld.com/de/qhd-resolution-html/
+15:53:07  INFO        ↳ https://www.mile-strong.com/Products/
+15:53:09  INFO        ↳ https://szledworld.com/fr/resolution-qhd-html/
+15:53:09  INFO        ↳ https://www.mile-strong.com/Blog/
+15:53:11  INFO        ↳ https://www.mile-strong.com/News/
+15:53:12  INFO        ↳ https://szledworld.com/semi-outdoor-and-full-outdoor-led.html
+15:53:13  INFO      [sitemap] https://www.bibiled.com/ 发现 2364 个 URL
+15:53:13  INFO        ↳ https://www.mile-strong.com/case/
+15:53:15  INFO        ↳ https://www.bibiled.com/outdoor-led-display-problems/
+15:53:15  INFO        ↳ https://szledworld.com/de/semi-outdoor-und-voll-outdoor-leds-html/
+15:53:15  INFO        ↳ https://www.mile-strong.com/solution/index.html
+15:53:17  INFO        ↳ https://www.mile-strong.com/Indoor-LED-Display/
+15:53:18  INFO        ↳ https://szledworld.com/xr-technology-virtual-production-technology.html
+15:53:18  INFO        ↳ https://www.bibiled.com/purchase-indoor-led-display/
+15:53:19  INFO        ↳ https://www.mile-strong.com/Outdoor-LED-Display/
+15:53:20  INFO        ↳ https://szledworld.com/de/xr-technology-virtual-production-technology-html/
+15:53:21  INFO        ↳ https://www.bibiled.com/outdoor-billboard-led-display/
+15:53:21  INFO        ↳ https://www.mile-strong.com/Rental-Staging/
+15:53:23  INFO      [完成] SZLEDWorld  共爬取 9 个页面
+15:53:23  INFO      [开始爬取] SZJYLED  https://www.szjy-led.com/
+15:53:23  INFO        ✓ SZLEDWorld  (9 页)
+15:53:23  INFO      [完成] MileStrong  共爬取 9 个页面
+15:53:23  INFO        ✓ MileStrong  (9 页)
+15:53:24  INFO        ↳ https://www.bibiled.com/rental-led-screen/
+15:53:27  INFO        ↳ https://www.bibiled.com/p3-91-indoor-shop-led-screen-to-albania/
+15:53:30  INFO        ↳ https://www.bibiled.com/pole-led-display-p3-outdoor-for-smart-city-to-thailand/
+15:53:33  INFO        ↳ https://www.bibiled.com/18sqm-p4-81-outdoor-rental-led-display-to-albania/
+15:53:37  INFO        ↳ https://www.bibiled.com/p5-outdoor-fixed-installation-led-screen-to-botswana/
+15:53:38  INFO      [sitemap] https://www.szjy-led.com/ 发现 12450 个 URL
+15:53:40  INFO        ↳ https://www.szjy-led.com/what-is-p4-resolution/
+15:53:40  INFO      [完成] BibLED  共爬取 9 个页面
+15:53:40  INFO        ✓ BibLED  (9 页)
+15:53:42  INFO        ↳ https://www.szjy-led.com/fr/quelle-est-la-resolution-p4/
+15:53:45  INFO        ↳ https://www.szjy-led.com/what-is-1080p-resolution/
+15:53:47  INFO        ↳ https://www.szjy-led.com/fr/quest-ce-que-la-resolution-1080p/
+15:53:51  INFO        ↳ https://www.szjy-led.com/pt/outdoors-3d-da-nike/
+15:53:54  INFO        ↳ https://www.szjy-led.com/virtual-production-vs-green-screen/
+15:53:56  INFO        ↳ https://www.szjy-led.com/fr/production-virtuelle-vs-ecran-vert/
+15:54:00  INFO        ↳ https://www.szjy-led.com/outdoor-advertising-companies-in-south-africa/
+15:54:02  INFO      [完成] SZJYLED  共爬取 9 个页面
+15:54:02  INFO        ✓ SZJYLED  (9 页)
+15:54:02  INFO      
+[Step 2/4] 与昨日快照对比，检测更新 ...
+15:54:02  INFO      [快照] ColorlitLED 加载上次快照：ColorlitLED_2026-03-06_150659.json（9 页）
+15:54:02  INFO      [差异] 新增页面=0  下线页面=0  内容变化=1  无变化=8
+15:54:02  INFO        ColorlitLED：1个页面内容变化
+15:54:02  INFO      [快照] EagerLED 加载上次快照：EagerLED_2026-03-06_150659.json（9 页）
+15:54:02  INFO      [差异] 新增页面=0  下线页面=0  内容变化=2  无变化=7
+15:54:02  INFO        EagerLED：2个页面内容变化
+15:54:02  INFO      [快照] Kinglight 加载上次快照：Kinglight_2026-03-06_150659.json（9 页）
+15:54:02  INFO      [差异] 新增页面=0  下线页面=0  内容变化=2  无变化=7
+15:54:02  INFO        Kinglight：2个页面内容变化
+15:54:02  INFO      [快照] TopDanceLED 加载上次快照：TopDanceLED_2026-03-06_150659.json（9 页）
+15:54:02  INFO      [差异] 新增页面=0  下线页面=0  内容变化=2  无变化=7
+15:54:02  INFO        TopDanceLED：2个页面内容变化
+15:54:02  INFO      [快照] DoitVision 加载上次快照：DoitVision_2026-03-06_150659.json（9 页）
+15:54:02  INFO      [差异] 新增页面=0  下线页面=0  内容变化=2  无变化=7
+15:54:02  INFO        DoitVision：2个页面内容变化
+15:54:02  INFO      [快照] LEDScreenFactory 加载上次快照：LEDScreenFactory_2026-03-06_150659.json（9 页）
+15:54:02  INFO      [差异] 新增页面=0  下线页面=0  内容变化=4  无变化=5
+15:54:02  INFO        LEDScreenFactory：4个页面内容变化
+15:54:02  INFO      [快照] SZLEDWorld 加载上次快照：SZLEDWorld_2026-03-06_150659.json（9 页）
+15:54:02  INFO      [差异] 新增页面=0  下线页面=0  内容变化=4  无变化=5
+15:54:02  INFO        SZLEDWorld：4个页面内容变化
+15:54:02  INFO      [快照] MileStrong 加载上次快照：MileStrong_2026-03-06_150659.json（9 页）
+15:54:02  INFO      [差异] 新增页面=0  下线页面=0  内容变化=0  无变化=9
+15:54:02  INFO        MileStrong：今日无更新
+15:54:02  INFO      [快照] BibLED 加载上次快照：BibLED_2026-03-06_150659.json（9 页）
+15:54:02  INFO      [差异] 新增页面=0  下线页面=0  内容变化=0  无变化=9
+15:54:02  INFO        BibLED：今日无更新
+15:54:02  INFO      [快照] SZJYLED 加载上次快照：SZJYLED_2026-03-06_150659.json（9 页）
+15:54:02  INFO      [差异] 新增页面=0  下线页面=0  内容变化=4  无变化=5
+15:54:02  INFO        SZJYLED：4个页面内容变化
+15:54:02  INFO        → 今日有变化竞品: 8 / 10
+15:54:02  INFO      
+[Step 3/4] 保存今日快照 ...
+15:54:02  INFO        ✓ ColorlitLED 快照已保存
+15:54:02  INFO        ✓ EagerLED 快照已保存
+15:54:02  INFO        ✓ Kinglight 快照已保存
+15:54:02  INFO        ✓ TopDanceLED 快照已保存
+15:54:02  INFO        ✓ DoitVision 快照已保存
+15:54:02  INFO        ✓ LEDScreenFactory 快照已保存
+15:54:02  INFO        ✓ SZLEDWorld 快照已保存
+15:54:02  INFO        ✓ MileStrong 快照已保存
+15:54:02  INFO        ✓ BibLED 快照已保存
+15:54:02  INFO        ✓ SZJYLED 快照已保存
+15:54:02  INFO      
+[Step 4/4] 调用大模型分析 ...
+15:54:02  INFO      [LLM分析] ColorlitLED 发送请求（变化分析，流式）...
+15:54:04  INFO      HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+15:55:16  INFO      [LLM分析] ColorlitLED 完成，共 3346 字
+15:55:16  INFO        ✅ ColorlitLED（已分析）
+15:55:16  INFO      [LLM分析] EagerLED 发送请求（变化分析，流式）...
+15:55:17  INFO      HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+15:56:32  INFO      [LLM分析] EagerLED 完成，共 3290 字
+15:56:32  INFO        ✅ EagerLED（已分析）
+15:56:32  INFO      [LLM分析] Kinglight 发送请求（变化分析，流式）...
+15:56:33  INFO      HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+15:56:50  ERROR     [LLM分析失败] Kinglight: peer closed connection without sending complete message body (incomplete chunked read)
+15:56:50  INFO        ⏭  Kinglight（无变化，跳过）
+15:56:50  INFO      [LLM分析] TopDanceLED 发送请求（变化分析，流式）...
+15:56:51  INFO      HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+15:58:08  INFO      [LLM分析] TopDanceLED 完成，共 3422 字
+15:58:08  INFO        ✅ TopDanceLED（已分析）
+15:58:08  INFO      [LLM分析] DoitVision 发送请求（变化分析，流式）...
+15:58:09  INFO      HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+15:59:16  INFO      [LLM分析] DoitVision 完成，共 2992 字
+15:59:16  INFO        ✅ DoitVision（已分析）
+15:59:16  INFO      [LLM分析] LEDScreenFactory 发送请求（变化分析，流式）...
+15:59:17  INFO      HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+16:09:38  ERROR     [LLM分析失败] LEDScreenFactory: peer closed connection without sending complete message body (incomplete chunked read)
+16:09:38  INFO        ⏭  LEDScreenFactory（无变化，跳过）
+16:09:38  INFO      [LLM分析] SZLEDWorld 发送请求（变化分析，流式）...
+16:09:40  INFO      HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+16:11:03  INFO      [LLM分析] SZLEDWorld 完成，共 3387 字
+16:11:03  INFO        ✅ SZLEDWorld（已分析）
+16:11:03  INFO      [跳过] MileStrong 今日无变化，节省 token
+16:11:03  INFO        ⏭  MileStrong（无变化，跳过）
+16:11:03  INFO      [跳过] BibLED 今日无变化，节省 token
+16:11:03  INFO        ⏭  BibLED（无变化，跳过）
+16:11:03  INFO      [LLM分析] SZJYLED 发送请求（变化分析，流式）...
+16:11:04  INFO      HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+16:12:29  INFO      [LLM分析] SZJYLED 完成，共 3325 字
+16:12:29  INFO        ✅ SZJYLED（已分析）
+16:12:29  INFO      
+[生成日报] 调用大模型生成综合日报 ...
+16:12:29  INFO      [LLM日报] 生成综合日报（流式）...
+16:12:30  INFO      HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+16:13:35  INFO      [LLM日报] 生成完成，共 2942 字
+16:13:35  INFO      [报告已保存] output\LED竞品日报_2026-03-06_1613.xlsx
+16:13:35  INFO      
+═════════════════════════════════════════════
+16:13:35  INFO        ✅ 日报已生成：D:\新建文件夹\sales_bot\output\LED竞品日报_2026-03-06_1613.xlsx
+16:13:35  INFO      ═════════════════════════════════════════════
+
+16:13:35  INFO      ✅ 任务成功完成：output\LED竞品日报_2026-03-06_1613.xlsx

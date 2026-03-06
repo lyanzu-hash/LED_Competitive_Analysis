@@ -48,11 +48,22 @@ def compute_diff(today_pages: list[dict], yesterday_snapshot: dict | None) -> di
     }
     """
     if yesterday_snapshot is None:
+        new_pages_detail = []
+        for pg in today_pages:
+            new_pages_detail.append({
+                "url": pg.get("url", ""),
+                "page_type": pg.get("page_type", "") or "",
+                "title": pg.get("title", "") or "",
+                "meta_description": pg.get("meta_description", "") or "",
+                "h1": pg.get("h1", []) or [],
+            })
         return {
             "is_first_run":    True,
             "has_changes":     True,
             "new_pages":       [pg["url"] for pg in today_pages],
+            "new_pages_detail": new_pages_detail,
             "removed_pages":   [],
+            "removed_pages_detail": [],
             "changed_pages":   [],
             "unchanged_count": 0,
         }
@@ -65,6 +76,29 @@ def compute_diff(today_pages: list[dict], yesterday_snapshot: dict | None) -> di
     removed_pages = sorted(yesterday_urls - today_urls)
     changed_pages = []
     unchanged     = 0
+
+    # 结构化明细（给报表做维度归类用）
+    new_pages_detail = []
+    for url in new_pages:
+        pg = today_map.get(url, {})
+        new_pages_detail.append({
+            "url": url,
+            "page_type": pg.get("page_type", "") or "",
+            "title": pg.get("title", "") or "",
+            "meta_description": pg.get("meta_description", "") or "",
+            "h1": pg.get("h1", []) or [],
+        })
+
+    removed_pages_detail = []
+    for url in removed_pages:
+        y = yesterday_snapshot.get(url, {}) if isinstance(yesterday_snapshot, dict) else {}
+        removed_pages_detail.append({
+            "url": url,
+            "page_type": y.get("page_type", "") or "",
+            "title": y.get("title", "") or "",
+            "meta_description": y.get("meta_description", "") or "",
+            "h1": y.get("h1", []) or [],
+        })
 
     for url in today_urls & yesterday_urls:
         today_pg = today_map[url]
@@ -90,7 +124,12 @@ def compute_diff(today_pages: list[dict], yesterday_snapshot: dict | None) -> di
                 field_changes[label] = {"old": str(old_val), "new": str(new_val)}
 
         if field_changes:
-            changed_pages.append({"url": url, "changes": field_changes})
+            changed_pages.append({
+                "url": url,
+                "page_type": today_pg.get("page_type", "") or yest_pg.get("page_type", "") or "",
+                "title": today_pg.get("title", "") or yest_pg.get("title", "") or "",
+                "changes": field_changes,
+            })
         else:
             unchanged += 1
 
@@ -105,7 +144,9 @@ def compute_diff(today_pages: list[dict], yesterday_snapshot: dict | None) -> di
         "is_first_run":    False,
         "has_changes":     has_changes,
         "new_pages":       new_pages,
+        "new_pages_detail": new_pages_detail,
         "removed_pages":   removed_pages,
+        "removed_pages_detail": removed_pages_detail,
         "changed_pages":   changed_pages,
         "unchanged_count": unchanged,
     }
