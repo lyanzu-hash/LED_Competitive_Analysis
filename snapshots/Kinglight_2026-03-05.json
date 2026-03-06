@@ -1,0 +1,62 @@
+{
+  "https://en.kinglight.com/": {
+    "hash": "e86a91cbc8e9781f622500c453ce39d4",
+    "title": "Kinglight – Optoelectronic Semiconduct Manufacturer",
+    "meta_description": "Kinglight is a professional manufacturer of optocouplers, SMD LED display lamps and LED lighting facilities",
+    "h1": [
+      "industrial layout",
+      "Core Competence",
+      "Application",
+      "Blog",
+      "Company Profile",
+      "Our Partners",
+      "Feedback"
+    ],
+    "h2": [],
+    "h3": []
+  },
+  "https://en.kinglight.com/products_category/transistor-optocoupler": {
+    "hash": "bf35e7e2fbc49b90a751b373a80fced0",
+    "title": "Photo Transistor Coupler - Kinglight - Optoelectronic Semiconduct Manufacturer",
+    "meta_description": "Optocouplers provide electrical isolation and signal transfer with stability and safety, widely applied in power supplies, industrial control, and communications.",
+    "h1": [
+      "Photo Transistor Coupler"
+    ],
+    "h2": [],
+    "h3": []
+  },
+  "https://en.kinglight.com/products_category/mled-display": {
+    "hash": "935070ed7c84434717106a507e830229",
+    "title": "MLED Display - Kinglight - Optoelectronic Semiconduct Manufacturer",
+    "meta_description": "Kinglight small pitch Mini-LED and Micro LED display lamps are suitable for conferences, stages, malls and commecial LED displays.",
+    "h1": [
+      "MLED Display"
+    ],
+    "h2": [],
+    "h3": []
+  },
+  "https://en.kinglight.com/application/new-energy.html": {
+    "hash": "f878eaf470a19b8d3409c559efed2874",
+    "title": "new energy optocouplers",
+    "meta_description": "new energy optocoupler - a page describes the use of optocouplers in new energy sectors, such as photovoltaic, energy storage, etc.",
+    "h1": [
+      "New Energy",
+      "Application",
+      "Related Product"
+    ],
+    "h2": [],
+    "h3": []
+  },
+  "https://en.kinglight.com/application/5g-communication.html": {
+    "hash": "b1d30e135b8dc108008a554380cb9668",
+    "title": "optocoupler application in communication",
+    "meta_description": "Optocoupler application in communication introduces where optocouplers are used for communication and Kinglight optocouplers",
+    "h1": [
+      "Communication",
+      "Application",
+      "Related Product"
+    ],
+    "h2": [],
+    "h3": []
+  }
+}

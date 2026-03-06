@@ -1,0 +1,150 @@
+10:50:00  INFO      ═════════════════════════════════════════════
+10:50:00  INFO        LED竞品日报  2026-03-05 10:50
+10:50:00  INFO        目标网站: 10 个  |  模式: 差异监控
+10:50:00  INFO      ═════════════════════════════════════════════
+10:50:00  INFO      
+[Step 1/4] 开始爬取 10 个竞品网站 ...
+10:50:00  INFO      [开始爬取] EagerLED  https://www.eagerled.com/
+10:50:00  INFO      [开始爬取] Kinglight  https://en.kinglight.com/
+10:50:00  INFO      [开始爬取] ColorlitLED  https://www.colorlitled.com/
+10:50:04  INFO        ↳ 子页面: https://www.colorlitled.com/about-us/
+10:50:04  INFO        ↳ 子页面: https://en.kinglight.com/products_category/transistor-optocoupler
+10:50:04  INFO        ↳ 子页面: https://www.eagerled.com/about-us.html
+10:50:07  INFO        ↳ 子页面: https://www.colorlitled.com/exhibition-led-display/
+10:50:08  INFO        ↳ 子页面: https://en.kinglight.com/products_category/mled-display
+10:50:09  INFO        ↳ 子页面: https://www.eagerled.com/church-led-display-solution.html
+10:50:10  INFO        ↳ 子页面: https://www.colorlitled.com/outdoor-led-display-screen/
+10:50:11  INFO        ↳ 子页面: https://en.kinglight.com/application/new-energy.html
+10:50:13  INFO        ↳ 子页面: https://www.eagerled.com/stadium-led-screen-solution.html
+10:50:13  INFO        ↳ 子页面: https://www.colorlitled.com/sports-stadium-led-display/
+10:50:15  INFO        ↳ 子页面: https://en.kinglight.com/application/5g-communication.html
+10:50:17  INFO        ↳ 子页面: https://www.eagerled.com/led-display-products.html
+10:50:17  INFO      [完成] ColorlitLED  共爬取 5 个页面
+10:50:17  INFO      [开始爬取] DoitVision  https://www.doitvision.com/
+10:50:17  INFO        ✓ ColorlitLED  (5 页)
+10:50:19  INFO      [完成] Kinglight  共爬取 5 个页面
+10:50:19  INFO      [开始爬取] LEDScreenFactory  https://ledscreenfactory.com/
+10:50:19  INFO        ✓ Kinglight  (5 页)
+10:50:21  INFO      [完成] EagerLED  共爬取 5 个页面
+10:50:21  INFO      [开始爬取] TopDanceLED  https://topdanceled.com/
+10:50:21  INFO        ✓ EagerLED  (5 页)
+10:50:21  INFO        ↳ 子页面: https://www.doitvision.com/product
+10:50:23  INFO        ↳ 子页面: https://ledscreenfactory.com/about-us/
+10:50:24  INFO        ↳ 子页面: https://topdanceled.com/standard-led-panel-sizes/
+10:50:27  INFO        ↳ 子页面: https://topdanceled.com/ldi-show-top-dance-2025/
+10:50:27  INFO        ↳ 子页面: https://www.doitvision.com/product?series=F
+10:50:28  INFO        ↳ 子页面: https://ledscreenfactory.com/products/
+10:50:30  INFO        ↳ 子页面: https://topdanceled.com/which-is-better-p6-vs-p4-led-screen/
+10:50:32  INFO        ↳ 子页面: https://ledscreenfactory.com/about-stage-rental-p3.9-led-display/
+10:50:32  INFO      [完成] TopDanceLED  共爬取 4 个页面
+10:50:32  INFO      [开始爬取] SZLEDWorld  https://szledworld.com/
+10:50:32  INFO        ✓ TopDanceLED  (4 页)
+10:50:34  INFO        ↳ 子页面: https://www.doitvision.com/product/cob-pro
+10:50:36  INFO        ↳ 子页面: https://szledworld.com/about-us
+10:50:37  INFO        ↳ 子页面: https://ledscreenfactory.com/wp-content/uploads/2023/12/WechatIMG95.jpg
+10:50:39  INFO        ↳ 子页面: https://www.doitvision.com/product/cob-beta
+10:50:39  INFO        ↳ 子页面: https://szledworld.com/outdoor-led-display
+10:50:40  INFO      [完成] LEDScreenFactory  共爬取 5 个页面
+10:50:40  INFO      [开始爬取] BibLED  https://www.bibiled.com/
+10:50:40  INFO        ✓ LEDScreenFactory  (5 页)
+10:50:42  INFO        ↳ 子页面: https://szledworld.com/indoor-led-screen
+10:50:44  INFO      [完成] DoitVision  共爬取 5 个页面
+10:50:44  INFO      [开始爬取] MileStrong  https://www.mile-strong.com/
+10:50:44  INFO        ✓ DoitVision  (5 页)
+10:50:44  INFO        ↳ 子页面: https://www.bibiled.com/product/outdoor-led-billboard/
+10:50:46  INFO        ↳ 子页面: https://szledworld.com/rental-led-display
+10:50:46  INFO        ↳ 子页面: https://www.mile-strong.com/case/
+10:50:48  INFO        ↳ 子页面: https://www.bibiled.com/product/big-led-screens/
+10:50:49  INFO        ↳ 子页面: https://www.mile-strong.com/About-us/index.html#team
+10:50:49  INFO      [完成] SZLEDWorld  共爬取 5 个页面
+10:50:49  INFO      [开始爬取] SZJYLED  https://www.szjy-led.com/
+10:50:49  INFO        ✓ SZLEDWorld  (5 页)
+10:50:51  INFO        ↳ 子页面: https://www.mile-strong.com/Blog/Custom-LED-Display-Applications-for-Immersive-Brand-Experience-Spaces.html
+10:50:51  INFO        ↳ 子页面: https://www.bibiled.com/product/perimeter-led-display/
+10:50:52  INFO        ↳ 子页面: https://www.szjy-led.com/3d-led-display/
+10:50:54  INFO        ↳ 子页面: https://www.mile-strong.com/Blog/Indoor-LED-Video-Walls-for-Conference-Rooms-and-Corporate-Presentations.html
+10:50:54  INFO        ↳ 子页面: https://www.szjy-led.com/flexible-led-screen/
+10:50:55  INFO        ↳ 子页面: https://www.bibiled.com/product/mobile-truck-led-display/
+10:50:56  INFO      [完成] MileStrong  共爬取 5 个页面
+10:50:56  INFO        ✓ MileStrong  (5 页)
+10:50:57  INFO        ↳ 子页面: https://www.szjy-led.com/fixed-outdoor-display-screen/
+10:50:58  INFO      [完成] BibLED  共爬取 5 个页面
+10:50:58  INFO        ✓ BibLED  (5 页)
+10:51:00  INFO        ↳ 子页面: https://www.szjy-led.com/indoor-led-display/
+10:51:02  INFO      [完成] SZJYLED  共爬取 5 个页面
+10:51:02  INFO        ✓ SZJYLED  (5 页)
+10:51:02  INFO      
+[Step 2/4] 与昨日快照对比，检测更新 ...
+10:51:02  INFO      [快照] ColorlitLED 加载上次快照：ColorlitLED_2026-03-05_102753.json（5 页）
+10:51:02  INFO      [差异] 新增页面=0  下线页面=0  内容变化=0  无变化=5
+10:51:02  INFO        ColorlitLED：今日无更新
+10:51:02  INFO      [快照] Kinglight 加载上次快照：Kinglight_2026-03-05_102753.json（5 页）
+10:51:02  INFO      [差异] 新增页面=0  下线页面=0  内容变化=0  无变化=5
+10:51:02  INFO        Kinglight：今日无更新
+10:51:02  INFO      [快照] EagerLED 加载上次快照：EagerLED_2026-03-05_102753.json（5 页）
+10:51:02  INFO      [差异] 新增页面=0  下线页面=0  内容变化=0  无变化=5
+10:51:02  INFO        EagerLED：今日无更新
+10:51:02  INFO      [快照] TopDanceLED 加载上次快照：TopDanceLED_2026-03-05_102753.json（4 页）
+10:51:02  INFO      [差异] 新增页面=0  下线页面=0  内容变化=0  无变化=4
+10:51:02  INFO        TopDanceLED：今日无更新
+10:51:02  INFO      [快照] LEDScreenFactory 加载上次快照：LEDScreenFactory_2026-03-05_102753.json（5 页）
+10:51:02  INFO      [差异] 新增页面=0  下线页面=0  内容变化=0  无变化=5
+10:51:02  INFO        LEDScreenFactory：今日无更新
+10:51:02  INFO      [快照] DoitVision 加载上次快照：DoitVision_2026-03-05_102753.json（5 页）
+10:51:02  INFO      [差异] 新增页面=0  下线页面=0  内容变化=0  无变化=5
+10:51:02  INFO        DoitVision：今日无更新
+10:51:02  INFO      [快照] SZLEDWorld 加载上次快照：SZLEDWorld_2026-03-05_102753.json（5 页）
+10:51:02  INFO      [差异] 新增页面=0  下线页面=0  内容变化=0  无变化=5
+10:51:02  INFO        SZLEDWorld：今日无更新
+10:51:02  INFO      [快照] MileStrong 加载上次快照：MileStrong_2026-03-05_102753.json（5 页）
+10:51:02  INFO      [差异] 新增页面=0  下线页面=0  内容变化=0  无变化=5
+10:51:02  INFO        MileStrong：今日无更新
+10:51:02  INFO      [快照] BibLED 加载上次快照：BibLED_2026-03-05_102753.json（5 页）
+10:51:02  INFO      [差异] 新增页面=0  下线页面=0  内容变化=0  无变化=5
+10:51:02  INFO        BibLED：今日无更新
+10:51:02  INFO      [快照] SZJYLED 加载上次快照：SZJYLED_2026-03-05_102753.json（5 页）
+10:51:02  INFO      [差异] 新增页面=0  下线页面=0  内容变化=0  无变化=5
+10:51:02  INFO        SZJYLED：今日无更新
+10:51:02  INFO        → 今日有变化竞品: 0 / 10
+10:51:02  INFO      
+[Step 3/4] 保存今日快照 ...
+10:51:02  INFO        ✓ ColorlitLED 快照已保存
+10:51:02  INFO        ✓ Kinglight 快照已保存
+10:51:02  INFO        ✓ EagerLED 快照已保存
+10:51:02  INFO        ✓ TopDanceLED 快照已保存
+10:51:02  INFO        ✓ LEDScreenFactory 快照已保存
+10:51:02  INFO        ✓ DoitVision 快照已保存
+10:51:02  INFO        ✓ SZLEDWorld 快照已保存
+10:51:02  INFO        ✓ MileStrong 快照已保存
+10:51:02  INFO        ✓ BibLED 快照已保存
+10:51:02  INFO        ✓ SZJYLED 快照已保存
+10:51:02  INFO      
+[Step 4/4] 调用大模型分析 ...
+10:51:02  INFO      [跳过] ColorlitLED 今日无变化，节省 token
+10:51:02  INFO        ⏭  ColorlitLED（无变化，跳过）
+10:51:02  INFO      [跳过] Kinglight 今日无变化，节省 token
+10:51:02  INFO        ⏭  Kinglight（无变化，跳过）
+10:51:02  INFO      [跳过] EagerLED 今日无变化，节省 token
+10:51:02  INFO        ⏭  EagerLED（无变化，跳过）
+10:51:02  INFO      [跳过] TopDanceLED 今日无变化，节省 token
+10:51:02  INFO        ⏭  TopDanceLED（无变化，跳过）
+10:51:02  INFO      [跳过] LEDScreenFactory 今日无变化，节省 token
+10:51:02  INFO        ⏭  LEDScreenFactory（无变化，跳过）
+10:51:02  INFO      [跳过] DoitVision 今日无变化，节省 token
+10:51:02  INFO        ⏭  DoitVision（无变化，跳过）
+10:51:02  INFO      [跳过] SZLEDWorld 今日无变化，节省 token
+10:51:02  INFO        ⏭  SZLEDWorld（无变化，跳过）
+10:51:02  INFO      [跳过] MileStrong 今日无变化，节省 token
+10:51:02  INFO        ⏭  MileStrong（无变化，跳过）
+10:51:02  INFO      [跳过] BibLED 今日无变化，节省 token
+10:51:02  INFO        ⏭  BibLED（无变化，跳过）
+10:51:02  INFO      [跳过] SZJYLED 今日无变化，节省 token
+10:51:02  INFO        ⏭  SZJYLED（无变化，跳过）
+10:51:02  INFO      
+[生成日报] 调用大模型生成综合日报 ...
+10:51:02  INFO      [报告已保存] output\LED竞品日报_2026-03-05_1051.xlsx
+10:51:02  INFO      
+═════════════════════════════════════════════
+10:51:02  INFO        ✅ 日报已生成：D:\新建文件夹\sales_bot\dist\output\LED竞品日报_2026-03-05_1051.xlsx
+10:51:02  INFO      ═════════════════════════════════════════════
+

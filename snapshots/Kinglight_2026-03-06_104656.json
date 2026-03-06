@@ -1,0 +1,275 @@
+{
+  "https://en.kinglight.com/": {
+    "hash": "3df1646d73f1973f8bf48f43a4f02e6d",
+    "title": "Kinglight – Optoelectronic Semiconduct Manufacturer",
+    "meta_description": "Kinglight is a professional manufacturer of optocouplers, SMD LED display lamps and LED lighting facilities",
+    "h1": [
+      "industrial layout",
+      "Core Competence",
+      "Application",
+      "Blog",
+      "Company Profile",
+      "Our Partners",
+      "Feedback"
+    ],
+    "h2": [],
+    "h3": [],
+    "canonical": "https://en.kinglight.com/",
+    "hreflang_langs": [],
+    "price_mentions": [
+      ", us"
+    ],
+    "downloads": [],
+    "spec_table": "",
+    "cta_buttons": [],
+    "forms": [],
+    "cert_mentions": [
+      "CE",
+      "UL"
+    ],
+    "expo_mentions": [
+      "ISE",
+      "CES",
+      "NAB"
+    ],
+    "article_titles": [],
+    "video_embeds": [],
+    "schema_types": [],
+    "lang_options": [],
+    "page_type": "首页"
+  },
+  "https://en.kinglight.com/products-sitemap.xml": {
+    "hash": "946211e40f14a1543736932fb7aa5707",
+    "title": "",
+    "meta_description": "",
+    "h1": [],
+    "h2": [],
+    "h3": [],
+    "canonical": "",
+    "hreflang_langs": [],
+    "price_mentions": [
+      "cny17"
+    ],
+    "downloads": [],
+    "spec_table": "",
+    "cta_buttons": [],
+    "forms": [],
+    "cert_mentions": [],
+    "expo_mentions": [],
+    "article_titles": [],
+    "video_embeds": [],
+    "schema_types": [],
+    "lang_options": [],
+    "page_type": "产品页"
+  },
+  "https://en.kinglight.com/products_category-sitemap.xml": {
+    "hash": "41a67edaea70cbc7573889c5d3066534",
+    "title": "",
+    "meta_description": "",
+    "h1": [],
+    "h2": [],
+    "h3": [],
+    "canonical": "",
+    "hreflang_langs": [],
+    "price_mentions": [],
+    "downloads": [],
+    "spec_table": "",
+    "cta_buttons": [],
+    "forms": [],
+    "cert_mentions": [
+      "ISO"
+    ],
+    "expo_mentions": [],
+    "article_titles": [],
+    "video_embeds": [],
+    "schema_types": [],
+    "lang_options": [],
+    "page_type": "产品页"
+  },
+  "https://en.kinglight.com/products_category/transistor-optocoupler": {
+    "hash": "a5444c8cc17b0023eef5f962353b4ee7",
+    "title": "Photo Transistor Coupler - Kinglight - Optoelectronic Semiconduct Manufacturer",
+    "meta_description": "Optocouplers provide electrical isolation and signal transfer with stability and safety, widely applied in power supplies, industrial control, and communications.",
+    "h1": [
+      "Photo Transistor Coupler"
+    ],
+    "h2": [],
+    "h3": [],
+    "canonical": "https://en.kinglight.com/products_category/transistor-optocoupler",
+    "hreflang_langs": [],
+    "price_mentions": [],
+    "downloads": [
+      "https://en.kinglight.com/wp-content/uploads/2024/12/KL814-Datasheet_V1.0.pdf",
+      "https://en.kinglight.com/wp-content/uploads/2023/10/KL3H4-Datasheet_V1.0.pdf",
+      "https://en.kinglight.com/wp-content/uploads/2024/12/KL3H7-Datasheet_V1.0.pdf",
+      "https://en.kinglight.com/wp-content/uploads/2023/10/KL3H7-Datasheet_V1.0.pdf",
+      "https://en.kinglight.com/wp-content/uploads/2024/12/KL827-Datasheet_V1.0.pdf"
+    ],
+    "spec_table": "Product | Photo | Package | size(LxWxHmm) | VF (V) | BV CEO (Min) (V) | V CE(SAT) (Max) (V) | IF (mA) | CTR (%) | tr (uS) | tf (uS) | ton (uS) | toff (uS) | Topr (Min) (degC) | Topr (Max) (degC) | Viso (Vrms) | File\nKLD3H7 |  | SSOP8 | 4.4×5.2×2.0 | 1.2 | 80 | 0.2 | 5 | 50-600 | 5(Typ) | 3(Typ) | - | - | -55 | +110 | 3750 | \nKL814B |  | DIP4 | 6.5x4.58x3.5 | 1.2 | 80 | 0.2 | ±1 | 50~150 | 18 | 18 | - | - | -55 | +110 | 5000 | \nKL3H4B-AW |  | SSOP4 | 4.4x2.70x2.0 | 1.2 | 80 | 0.2 | ±1 | 80~300 | 18 | 18 | - | - | -55 | +100 | 3750 | \nKL3H4A-AW |  | SSOP4 | 4.4x2.70x2.0 | 1.2 | 80 | 0.2 | ±1 | 50~150 | 18 | 18 | - | - | -55 | +100 | 3750 | \nKL3H7D-AW |  | SSOP4 | 4.4x2.70x2.0 | 1.2 | 80 | 0.2 | 5 | 300~600 | 5 | 3 | - | - | -55 | +110 | 3750 | \nKL3H7C-AW |  | SSOP4 | 4.4x2.70x2.0 | 1.2 | 80 | 0.2 | 5 | 200~400 | 5 | 3 | - | - | -55 | +110 | 3750 | \nKL3H7B-AW |  | SSOP4 | 4.4x2.70x2.0 | 1.2 | 80 | 0.2 | 5 | 130~260 | 5 | 3 | - | - | -55 | +110 | 3750 | \nKL3H7A-AW |  | SSOP4 | 4.4x2.70x2.0 | 1.2 | 80 | 0.2 | 5 | 80~160 | 5 | 3 | - | - | -55 | +110 | 3750 | \nKL827 |  | DIP8 | 6.6×9.76×3.5 | 1.2 | 80 | 0.2 | 5 | 50-600 | 3(Typ) | 4(Typ) | - | - | -55 | +110 | 5000 | ",
+    "cta_buttons": [],
+    "forms": [
+      "Search"
+    ],
+    "cert_mentions": [
+      "ISO",
+      "CE"
+    ],
+    "expo_mentions": [],
+    "article_titles": [],
+    "video_embeds": [],
+    "schema_types": [],
+    "lang_options": [],
+    "page_type": "产品页"
+  },
+  "https://en.kinglight.com/products_category/mled-display": {
+    "hash": "935070ed7c84434717106a507e830229",
+    "title": "MLED Display - Kinglight - Optoelectronic Semiconduct Manufacturer",
+    "meta_description": "Kinglight small pitch Mini-LED and Micro LED display lamps are suitable for conferences, stages, malls and commecial LED displays.",
+    "h1": [
+      "MLED Display"
+    ],
+    "h2": [],
+    "h3": [],
+    "canonical": "https://en.kinglight.com/products_category/mled-display",
+    "hreflang_langs": [],
+    "price_mentions": [],
+    "downloads": [],
+    "spec_table": "Version | Picture | Product IDModel No.Reference RangeScreenBrightness（ref）ColorBrightnessBrightness（mcd）Wavelength（NM）Volt(V)Current(mA)TypicalvalueMINMAXMINMAXMINMAX | Product ID | Model No. | Reference Range | ScreenBrightness（ref） | Color | Brightness | Brightness（mcd） | Wavelength（NM） | Volt(V) | Current(mA) | Typicalvalue | MIN | MAX | MIN | MAX | MIN | MAX\nProduct ID | Model No. | Reference Range | ScreenBrightness（ref）\nColor | Brightness | Brightness（mcd） | Wavelength（NM） | Volt(V) | Current(mA)\nTypicalvalue | MIN | MAX | MIN | MAX | MIN | MAX\nS series |  | MC1010N-W-M3JT-FCTCMF1010NSURZGQBW-W-M3R1801352406206251.72.45P1.8/32S\r\n6000nitG2602003305155352.33.33B3522504584742.33.32 | MC1010N-W-M3 | JT-FCTCMF1010NSURZGQBW-W-M3 | R | 180 | 135 | 240 | 620 | 625 | 1.7 | 2.4 | 5 | P1.8/32S\r\n6000nit | G | 260 | 200 | 330 | 515 | 535 | 2.3 | 3.3 | 3 | B | 35 | 22 | 50 | 458 | 474 | 2.3 | 3.3 | 2\nMC1010N-W-M3 | JT-FCTCMF1010NSURZGQBW-W-M3 | R | 180 | 135 | 240 | 620 | 625 | 1.7 | 2.4 | 5 | P1.8/32S\r\n6000nit\nG | 260 | 200 | 330 | 515 | 535 | 2.3 | 3.3 | 3\nB | 35 | 22 | 50 | 458 | 474 | 2.3 | 3.3 | 2\nS series |  | MC0606N-B-M2JT-FCHCSF0606NSURZGQBW-B-M2R110751606206251.72.45P1.8/32S\r\n3500nitG1901302605155352.43.43B2616404584742.43.42 | MC0606N-B-M2 | JT-FCHCSF0606NSURZGQBW-B-M2 | R | 110 | 75 | 160 | 620 | 625 | 1.7 | 2.4 | 5 | P1.8/32S\r\n3500nit | G | 190 | 130 | 260 | 515 | 535 | 2.4 | 3.4 | 3 | B | 26 | 16 | 40 | 458 | 474 | 2.4 | 3.4 | 2\nMC0606N-B-M2 | JT-FCHCSF0606NSURZGQBW-B-",
+    "cta_buttons": [],
+    "forms": [
+      "Search"
+    ],
+    "cert_mentions": [
+      "CE",
+      "UL"
+    ],
+    "expo_mentions": [],
+    "article_titles": [],
+    "video_embeds": [],
+    "schema_types": [],
+    "lang_options": [],
+    "page_type": "产品页"
+  },
+  "https://en.kinglight.com/application/new-energy.html": {
+    "hash": "f878eaf470a19b8d3409c559efed2874",
+    "title": "new energy optocouplers",
+    "meta_description": "new energy optocoupler - a page describes the use of optocouplers in new energy sectors, such as photovoltaic, energy storage, etc.",
+    "h1": [
+      "New Energy",
+      "Application",
+      "Related Product"
+    ],
+    "h2": [],
+    "h3": [],
+    "canonical": "https://en.kinglight.com/application/new-energy.html",
+    "hreflang_langs": [],
+    "price_mentions": [],
+    "downloads": [],
+    "spec_table": "",
+    "cta_buttons": [],
+    "forms": [],
+    "cert_mentions": [
+      "CE",
+      "UL"
+    ],
+    "expo_mentions": [
+      "CES",
+      "NAB"
+    ],
+    "article_titles": [],
+    "video_embeds": [],
+    "schema_types": [],
+    "lang_options": [],
+    "page_type": "解决方案页"
+  },
+  "https://en.kinglight.com/application/5g-communication.html": {
+    "hash": "b1d30e135b8dc108008a554380cb9668",
+    "title": "optocoupler application in communication",
+    "meta_description": "Optocoupler application in communication introduces where optocouplers are used for communication and Kinglight optocouplers",
+    "h1": [
+      "Communication",
+      "Application",
+      "Related Product"
+    ],
+    "h2": [],
+    "h3": [],
+    "canonical": "https://en.kinglight.com/application/communication.html",
+    "hreflang_langs": [],
+    "price_mentions": [],
+    "downloads": [],
+    "spec_table": "",
+    "cta_buttons": [],
+    "forms": [],
+    "cert_mentions": [
+      "CE"
+    ],
+    "expo_mentions": [
+      "CES"
+    ],
+    "article_titles": [],
+    "video_embeds": [],
+    "schema_types": [],
+    "lang_options": [],
+    "page_type": "解决方案页"
+  },
+  "https://en.kinglight.com/application/electric-power-grid.html": {
+    "hash": "eef58fc97ba8710b0770d50c07e1b7a7",
+    "title": "optocoupler for industrial control application",
+    "meta_description": "Optocoupler for industrial control is also an important sector of optocouplers. Here also recommend related Kinglight optocouplers.",
+    "h1": [
+      "Industrial Control",
+      "Application",
+      "Related Product"
+    ],
+    "h2": [],
+    "h3": [],
+    "canonical": "https://en.kinglight.com/application/industrial-control.html",
+    "hreflang_langs": [],
+    "price_mentions": [],
+    "downloads": [],
+    "spec_table": "",
+    "cta_buttons": [],
+    "forms": [],
+    "cert_mentions": [
+      "CE"
+    ],
+    "expo_mentions": [
+      "CES"
+    ],
+    "article_titles": [],
+    "video_embeds": [],
+    "schema_types": [],
+    "lang_options": [],
+    "page_type": "解决方案页"
+  },
+  "https://en.kinglight.com/application/security.html": {
+    "hash": "0ece070d3d90538f35986e89b772b44c",
+    "title": "optocoupler application in smart appliance",
+    "meta_description": "Optocoupler applications in smart appliances highlights application scenarios and recommends Kinglight optocouplers for smart appliances.",
+    "h1": [
+      "Smart Appliance",
+      "Application",
+      "Related Product"
+    ],
+    "h2": [],
+    "h3": [],
+    "canonical": "https://en.kinglight.com/application/smart-appliance.html",
+    "hreflang_langs": [],
+    "price_mentions": [],
+    "downloads": [],
+    "spec_table": "",
+    "cta_buttons": [],
+    "forms": [],
+    "cert_mentions": [
+      "CE"
+    ],
+    "expo_mentions": [
+      "CES"
+    ],
+    "article_titles": [],
+    "video_embeds": [],
+    "schema_types": [],
+    "lang_options": [],
+    "page_type": "解决方案页"
+  }
+}
