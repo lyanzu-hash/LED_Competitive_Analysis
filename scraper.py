@@ -15,6 +15,7 @@ import json
 import logging
 import re
 import time
+from collections import Counter
 from html import unescape
 from urllib.parse import urldefrag, urljoin, urlparse
 
@@ -63,6 +64,14 @@ _STATIC_EXTS = {
     ".css", ".js", ".map", ".woff", ".woff2", ".ttf", ".eot", ".otf",
     ".mp4", ".webm", ".mp3", ".wav", ".avi", ".mov",
     ".xml", ".json", ".txt",
+}
+
+_STOPWORDS = {
+    "the", "and", "for", "with", "from", "that", "this", "your", "you", "our", "are",
+    "was", "were", "have", "has", "had", "not", "but", "can", "will", "all", "new",
+    "led", "display", "screen", "video", "panel", "china", "factory", "manufacturer",
+    "solution", "solutions", "about", "news", "blog", "article", "case", "project",
+    "home", "page", "more", "contact", "quote", "request", "download", "product", "products",
 }
 
 
@@ -304,6 +313,44 @@ def _extract_article_titles(soup: BeautifulSoup) -> list[str]:
     return list(dict.fromkeys(titles))[:15]
 
 
+def _extract_keywords(meta_kw: str, title: str, h1_list: list[str], h2_list: list[str],
+                      article_titles: list[str], body_text: str) -> tuple[list[str], list[str]]:
+    """
+    提取页面核心关键词与长尾词（启发式）：
+    - 核心词：来自 meta keywords + 标题/标题词频
+    - 长尾词：来自标题/H2/文章标题中的 2~6 词短语
+    """
+    seed = " ".join([title, " ".join(h1_list), " ".join(h2_list), " ".join(article_titles)])
+    body = body_text[:3000]
+
+    # 1) 核心词：优先 meta keywords
+    core_terms: list[str] = []
+    if meta_kw:
+        raw = re.split(r"[,，;；|/]", meta_kw)
+        core_terms.extend([t.strip() for t in raw if t.strip()])
+
+    tokens = re.findall(r"[a-zA-Z][a-zA-Z0-9\-]{2,}", f"{seed} {body}".lower())
+    freq = Counter(t for t in tokens if t not in _STOPWORDS and len(t) <= 32)
+    for term, _ in freq.most_common(20):
+        if term not in core_terms:
+            core_terms.append(term)
+
+    # 2) 长尾词：从标题类文本抓 2~6 词短语
+    phrase_src = [title] + h1_list + h2_list + article_titles
+    long_tail: list[str] = []
+    for src in phrase_src:
+        clean = re.sub(r"\s+", " ", src.strip())
+        if not clean:
+            continue
+        words = re.findall(r"[a-zA-Z][a-zA-Z0-9\-]{1,}", clean)
+        if len(words) >= 2:
+            phrase = " ".join(words[: min(6, len(words))]).lower()
+            if phrase not in long_tail and 8 <= len(phrase) <= 80:
+                long_tail.append(phrase)
+
+    return core_terms[:12], long_tail[:12]
+
+
 def _detect_page_type(url: str, title: str, h1_list: list) -> str:
     """根据 URL 和标题推断页面类型。"""
     u = url.lower()
@@ -455,6 +502,8 @@ def _parse_page(html: str, url: str) -> dict:
     cert_expo   = _extract_cert_expo(body_text)
     art_titles  = _extract_article_titles(soup)
     page_type   = _detect_page_type(url, title, h1_list)
+    core_kws, long_tail_kws = _extract_keywords(meta_kw, title, h1_list, h2_list, art_titles, body_text)
+    body_digest = re.sub(r"\s+", " ", body_text)[:1200]
 
     # ── 内容哈希（含扩展字段）────────────────────────────────────────────────
     hash_src = (
@@ -502,7 +551,10 @@ def _parse_page(html: str, url: str) -> dict:
         "expo_mentions":    cert_expo["expo_mentions"],
         # 内容信号
         "article_titles":   art_titles,
+        "core_keywords":    core_kws,
+        "long_tail_keywords": long_tail_kws,
         "body_text":        body_text,
+        "body_digest":      body_digest,
         # 结构
         "nav_links":        nav_links,
         "content_hash":     content_hash,
@@ -607,6 +659,10 @@ def scrape_competitor(competitor: dict) -> dict:
             section.append(f"展会: {' / '.join(pg['expo_mentions'])}")
         if pg["article_titles"]:
             section.append(f"文章标题: {' | '.join(pg['article_titles'][:5])}")
+        if pg["core_keywords"]:
+            section.append(f"核心关键词: {' | '.join(pg['core_keywords'][:8])}")
+        if pg["long_tail_keywords"]:
+            section.append(f"长尾词: {' | '.join(pg['long_tail_keywords'][:8])}")
         if pg["lang_options"]:
             section.append(f"语言版本: {' / '.join(pg['lang_options'])}")
         if pg["spec_table"]:
